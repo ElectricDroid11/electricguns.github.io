@@ -823,6 +823,10 @@ section {
     width: 15em;  height: 3.5em;
 }
 
+#video {
+    width: 15em;  height: 3.5em;
+}
+
 #time {
    color: #263238;
 }
