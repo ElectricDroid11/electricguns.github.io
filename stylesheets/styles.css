@@ -659,7 +659,7 @@ header {
   right: 0;
   width: 100%;
   text-align: center;
-  background: #009688;
+  background: #3F51B5;
   -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
@@ -833,6 +833,10 @@ section {
 
 #myname {
    color: #1B5E20;
+}
+
+#mods {
+    width: 15em;  height: 3.5em;
 }
 
 small {
