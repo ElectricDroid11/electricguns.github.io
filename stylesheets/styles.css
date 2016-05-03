@@ -839,6 +839,14 @@ section {
     width: 15em;  height: 3.5em;
 }
 
+#mcpemaster {
+  font-family: 'Quattrocento Sans';
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot");
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/quattrocentosans-bolditalic-webfont.woff") format("woff"), url("../fonts/quattrocentosans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
 small {
   font-size: 12px;
 }
