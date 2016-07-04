@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<meta name="theme-color" content="#3F51B5"/>
+	<meta name="theme-color" content="#009688"/>
     <title>ElectricGuns Web - ElectricDroid11</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
@@ -14,7 +14,14 @@
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	
+
+<script type="text/javascript">
+function formHandler(form){
+var URL = form.site.options[form.site.selectedIndex].value;
+window.location.href = URL;
+}
+</script>
+	  
   </head>
   
 <script type="text/javascript"> 
@@ -28,6 +35,16 @@
       </header>
 	  
   <body>
+	
+	<center><form name="menu">
+		<font face="Quattrocento Sans, Helvetica, Sans-serif" size="3">
+		<select name="site" size=1 onChange ="formHandler(this.form)">
+		  <option value="index.html"><center>Home</center>
+		  <option value="news.html"><center>News</center>
+		  <option value="downloads.html"><center>Downloads</center>
+		  <option value="video.html"><center>Video</center>
+		  <option value="donations.html"><center>Donations</center>
+		  </select></font></form></center>
 
     <div class="wrapper">
       <nav>
@@ -38,33 +55,15 @@
         <h1>
 		  <a id="welcome-to-electricguns-downloader" class="anchor" href="#welcome-to-electricguns-downloader" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><h2 style="font-size:180%;">ElectricGuns Downloader</h2></h1>
 
-        <h4>Download ElectricGuns Mod Latest Version<br>For Minecraft Pocket Edition 0.14.x</h4>
-        <br>
-		  
-		<h2>News:</h2>
-		<h4>ElectricGuns v8.0, will be released as soon leave the official Minecraft PE version 0.15.0, this is because in the case builds for the game to choose the weapons constantly closed. I hope and understanding.</h4>
+        <h4>Download ElectricGuns Mod Latest Version<br>For Minecraft Pocket Edition 0.14.x/0.15.x</h4>
+		<hr>
+		<h4>It has become a remodeling in the interface of the website:<br>
+			•Page with a green theme Material Design.<br>
+			•The has a menu for each type of section.<br>
+			•A added ads for raising money to the developer of the page.<br>
+			•A added donations to pursue the project's page and raise money for the rise of the "ElectricGuns" application to Google Play Store.<br>
+			</h4>
 		
-        <br>
-        <h2>
-        <a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Downloads:</h2>
-		
-		<a><h3>ElectricGuns  <br><input type="image" src="images/download_button.png" id="electricguns" onclick="window.location.href='http://adf.ly/1boDG3'" title="Download ElectricGuns Latest Version"></h3></a>
-		
-		<br>
-		<h3>
-		  <a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ElectricGuns v7.1  </h3>
-		<a><h3> <input type="image" src="images/download_button.png" id="mods" onclick="window.location.href='index3.html'" value=" " title="ElectricGuns v7.1"></h3></a>
-        
-		<br>
-		<a><h3>BlockLauncher  <br><input type="image" src="images/download_button.png" id="blocklauncher" onclick="window.location.href='https://t.co/wBArbX1rg7'" title="Download BlockLauncher Latest Version"> </h3></a>
-		
-		<br>
-		<a><h3>ElectricGuns APP  <br><input type="image" src="images/download_button.png" id="app" onclick="window.location.href='ElectricGuns - APP.apk'" title="Download ElectricGuns APP Latest Version"></h3></a>
-		
-		<br>
-		<h2>
-		<a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video:  </h2>
-		<a><h3>ElectricGuns Mod Video Review<br><input type="image" src="images/show_video.png" id="video" onclick="window.location.href='index2.html'" title="Show ElectricGuns Video Review"></h3></a>
 		
       </section>
       <footer>

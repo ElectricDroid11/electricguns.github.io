@@ -15,6 +15,13 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<script type="text/javascript">
+function formHandler(form){
+var URL = form.site.options[form.site.selectedIndex].value;
+window.location.href = URL;
+}
+</script>
+
   </head>
   
 <script type="text/javascript"> 
@@ -22,39 +29,34 @@
     var popunder_frequency_delay = 0; 
 </script> 
   <script src="http://cdn.adf.ly/js/display.js"></script> 
-  
+
   <header>
 	<h1>ElectricGuns</h1>
   </header>
 
   <body>
-	
+
 	<center><form name="menu">
 		<font face="Quattrocento Sans, Helvetica, Sans-serif" size="3">
 		  <select name="site" size=1 onChange ="formHandler(this.form)">
-			<option value="downloads.html"><center>Downloads</center>
+			<option value="video.html"><center>Video</center>
 			<option value="index.html"><center>Home</center>
 			<option value="news.html"><center>News</center>
-			<option value="video.html"><center>Video</center>
+			<option value="downloads.html"><center>Downloads</center>
 			<option value="donations.html"><center>Donations</center>
-		  </select></font></form></center>
-	
+			</select></font></form></center>
 
     <div class="wrapper">
       <nav>
         <ul></ul>
       </nav>
       <section>
-        <h1>
-		  <a class="anchor" href="#welcome-to-electricguns-downloader" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><h2 style="font-size:180%;">What Is This?</h2></h1>
 
-		<h4 style="font-size:120%;">You can download a preview of a next feature I'm working for an upcoming version of ElectricGuns Mod For Minecraft Pocket Edition</h4>
-		<br>
-		<h2>
-		  <a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Downloads:</h2>
-
-		<a><h3>ElectricGuns v7.1  <br><input type="image" src="images/download_button.png" id="electricguns" onclick="window.location.href='ElectricGuns v7.1 Feature Preview.modpkg'" title="Download ElectricGuns Feature Preview"></h3></a>
-
+        <h2>
+		  <a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video:  </h2>
+		<a><h3>ElectricGuns Mod Video Review<br><input type="image" src="images/show_video.png" id="video" onclick="window.location.href='index2.html'" title="Show ElectricGuns Video Review"></h3></a>
+		
+		
       </section>
       <footer>
         <p><h1 style="font-size:110%;">This project is maintained by: </h1><a href="https://github.com/ElectricDroid11"><h1 id="myname" title="GitHub Profile: ElectricDroid11" style="font-size:110%">TheElectricDroid11</h1></a></p>

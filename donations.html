@@ -15,8 +15,15 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<script type="text/javascript">
+function formHandler(form){
+var URL = form.site.options[form.site.selectedIndex].value;
+window.location.href = URL;
+}
+</script>
+
   </head>
-  
+
 <script type="text/javascript"> 
     var adfly_id = 13998831; 
     var popunder_frequency_delay = 0; 
@@ -28,32 +35,38 @@
   </header>
 
   <body>
-	
+
 	<center><form name="menu">
 		<font face="Quattrocento Sans, Helvetica, Sans-serif" size="3">
 		  <select name="site" size=1 onChange ="formHandler(this.form)">
-			<option value="downloads.html"><center>Downloads</center>
+			<option value="donations.html"><center>Donations</center>
 			<option value="index.html"><center>Home</center>
 			<option value="news.html"><center>News</center>
+			<option value="downloads.html"><center>Downloads</center>
 			<option value="video.html"><center>Video</center>
-			<option value="donations.html"><center>Donations</center>
 		  </select></font></form></center>
-	
 
     <div class="wrapper">
       <nav>
         <ul></ul>
       </nav>
       <section>
-        <h1>
-		  <a class="anchor" href="#welcome-to-electricguns-downloader" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><h2 style="font-size:180%;">What Is This?</h2></h1>
 
-		<h4 style="font-size:120%;">You can download a preview of a next feature I'm working for an upcoming version of ElectricGuns Mod For Minecraft Pocket Edition</h4>
-		<br>
-		<h2>
-		  <a id="youtube-channel" class="anchor" href="#youtube-channel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Downloads:</h2>
-
-		<a><h3>ElectricGuns v7.1  <br><input type="image" src="images/download_button.png" id="electricguns" onclick="window.location.href='ElectricGuns v7.1 Feature Preview.modpkg'" title="Download ElectricGuns Feature Preview"></h3></a>
+		<h2>Español</h2>
+		<h4>Ayudame donando lo que gustes para seguir con el proyecto de ElectricGuns(Sitio Web y Aplicación) para comprar un dominio y subir la aplicación a Google Play Store.</h4>
+		<hr>
+		<h2>English</h2>
+		<h4>Help me by donating anything you like to continue with the project of ElectricGuns (Web site and application) to buy a domain and upload the application to Google Play Store.</h4>
+		<center>
+		  <br>
+		Haz Click Aqui Para Donar/Click Here To Donate
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		  <input type="hidden" name="cmd" value="_s-xclick">
+		  <input type="hidden" name="hosted_button_id" value="8D6EBCRM6XTJL">
+		  <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+		  <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+		</form>
+        </center>
 
       </section>
       <footer>
