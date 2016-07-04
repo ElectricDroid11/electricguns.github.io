@@ -640,8 +640,8 @@ td:first-child {
 hr {
   border: 0;
   outline: none;
-  height: 11px;
-  background: transparent url("../images/hr.gif") center center repeat-x;
+  height: 1px;
+  background: #000 center center repeat-x;
   margin: 0 0 20px;
 }
 
@@ -659,7 +659,7 @@ header {
   right: 0;
   width: 100%;
   text-align: center;
-  background: #3F51B5;
+  background: #009688;
   -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
   -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
@@ -684,6 +684,13 @@ header p {
   text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
   font-size: 18px;
   margin: 0px;
+}
+
+form {
+  background: transparent;
+}
+option {
+  background: #000;
 }
 
 #banner {
@@ -811,6 +818,14 @@ section {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
 }
 
+#downloads {
+  font-family: 'Quattrocento Sans';
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot");
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/quattrocentosans-bolditalic-webfont.woff") format("woff"), url("../fonts/quattrocentosans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
 #electricguns {
     width: 14em;  height: 3em;
 }
@@ -829,10 +844,20 @@ section {
 
 #time {
    color: #263238;
+   font-family: 'Quattrocento Sans';
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot");
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/quattrocentosans-bolditalic-webfont.woff") format("woff"), url("../fonts/quattrocentosans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 #myname {
    color: #1B5E20;
+   font-family: 'Quattrocento Sans';
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot");
+  src: url("../fonts/quattrocentosans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/quattrocentosans-bolditalic-webfont.woff") format("woff"), url("../fonts/quattrocentosans-bolditalic-webfont.ttf") format("truetype"), url("../fonts/quattrocentosans-bolditalic-webfont.svg#QuattrocentoSansBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 #mods {
@@ -854,6 +879,35 @@ section {
   font-weight: bold;
   font-style: normal;
 }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 350px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 350px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+  /*End carousel*/
+}
+
+/*END MODIFICATION PART*/
 
 small {
   font-size: 12px;
